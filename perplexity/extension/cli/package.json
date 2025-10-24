@@ -5,6 +5,9 @@
     "chrome:upload": "dotenvx run -f .env.chrome --quiet -- bun ./src/web-stores/chrome-upload.ts",
     "create-release-note": "bun ./src/web-stores/create-release-note.ts",
     "firefox:publish": "dotenvx run -f .env.firefox --quiet -- bun ./src/web-stores/firefox-publish.ts",
+    "plugin:init": "tsx ./src/plugin-dev/index.ts init",
+    "plugin:validate": "tsx ./src/plugin-dev/index.ts validate",
+    "plugin:list": "tsx ./src/plugin-dev/index.ts list",
     "r2:cache-buster:bump": "dotenvx run -f ./src/r2/.env --quiet -- bun ./src/r2/cache-buster-bump.ts",
     "r2:changelog:push": "dotenvx run -f ./src/r2/.env --quiet -- bun ./src/r2/changelogs-push.ts",
     "r2:pull": "dotenvx run -f ./src/r2/.env --quiet -- bun ./src/r2/pull.ts",
@@ -32,6 +35,7 @@
     "@types/node": "22.17.2",
     "eslint": "catalog:lint",
     "prettier": "catalog:lint",
+    "tsx": "^4.20.6",
     "typescript": "catalog:types",
     "typescript-eslint": "catalog:lint"
   }

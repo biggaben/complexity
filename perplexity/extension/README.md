@@ -58,6 +58,16 @@ A powerful browser extension that enhances your Perplexity AI experience with ad
 - [Tech Stack](./docs/tech-stack.md)
 - [DX](./docs/dx.md)
 - [Build your own plugin](./docs/build-your-own-plugin.md)
+- [Plugin Development Guide](./docs/plugin-development-guide.md) - **Start here for external plugin development**
+- [External Plugin Solutions](./docs/external-plugins-solution.md) - Design decisions and approach
+
+## Contributing
+
+We welcome community contributions, especially new plugins! See [CONTRIBUTING.md](./CONTRIBUTING.md) for:
+- How to create and submit plugins
+- Development setup and workflow
+- Style guidelines and best practices
+- Pull request process
 
 ## Privacy & Security
 
